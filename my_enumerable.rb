@@ -5,13 +5,13 @@ module MyEnumerable
         return false
       end
     end
-    
+
     return true
   end
 
   def any?
     @list.each do |n|
-      if yield n 
+      if yield n
         return true
       end
     end
