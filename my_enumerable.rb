@@ -19,3 +19,14 @@ module MyEnumerable
     return false
   end
 end
+
+def filter
+  new_list = []
+  @list.each do |n|
+    if yield n
+      new_list.push(n)
+    end
+  end
+
+  return new_list
+end
