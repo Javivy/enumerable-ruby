@@ -4,23 +4,27 @@ module MyEnumerable
       return false unless yield n
     end
 
-    true
+    return true
   end
 
   def any?
     @list.each do |n|
-      return true if yield n
+      if yield n
+        return true
+      end
     end
 
     false
   end
+end
 
-  def filter
-    new_list = []
-    @list.each do |n|
-      new_list.push(n) if yield n
+def filter
+  new_list = []
+  @list.each do |n|
+    if yield n
+      new_list.push(n)
     end
-
-    new_list
   end
+
+  return new_list
 end
