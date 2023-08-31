@@ -1,4 +1,4 @@
-# Decode-Morse
+# My Enumerable
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
