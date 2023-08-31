@@ -13,9 +13,6 @@ class MyList
 end
 
 list = MyList.new('ant', 'doggo', 'parrot')
-puts(list.all? {|n| n.length == 3})
-puts(list.any? {|n| n.length == 6})
-puts(list.filter {|n| n.length == 3})
 
 puts(list.all? {|n| n.length == 3}) # => should return false
 puts(list.any? {|n| n.length == 6}) # => should return true
