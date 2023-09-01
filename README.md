@@ -1,4 +1,4 @@
-# Decode-Morse
+# My Enumerable
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -22,11 +22,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Decode-Morse <a name="about-project"></a>
+# 📖 My Enumerable <a name="about-project"></a>
 
 
 
-**Decode-Morse** Is a program in Ruby that automates decoding Morse into English.
+**My Enumerable** Is a program where I learn how to use the `yield` keyword of ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,9 +43,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- A method to decode a Morse code character.
-- A method to decode an entire word in Morse code.
-- A method to decode the entire message in Morse code.
+- A method `any?` that returns true if any of the items inside a list meets a certain condition.
+- A method `all?` that returns true if all of the items inside a list meet a certain condition.
+- A method `filter?` that returns a filtered list with the items that meet a certain condition.
+- Modules
+- Classes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +102,7 @@ Using cl
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Diegogagan2587/code-morse-decoder/issues).
+Feel free to check the [issues page](https://github.com/Javivy/enumerable-ruby/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
