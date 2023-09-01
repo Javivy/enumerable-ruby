@@ -8,7 +8,7 @@ class MyList
   include MyEnumerable
 
   def each?
-    @list
+    yield @list
   end
 end
 
