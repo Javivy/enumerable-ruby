@@ -14,13 +14,14 @@ module MyEnumerable
 
     false
   end
-end
-
-def filter
-  new_list = []
-  @list.each do |n|
-    new_list.push(n) if yield n
+  def filter
+    new_list = []
+    @list.each do |n|
+      new_list.push(n) if yield n
+    end
+  
+    new_list
   end
-
-  new_list
 end
+
+
