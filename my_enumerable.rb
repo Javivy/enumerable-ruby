@@ -20,7 +20,6 @@ module MyEnumerable
     @list.each do |n|
       new_list.push(n) if yield n
     end
-
     new_list
   end
 end
